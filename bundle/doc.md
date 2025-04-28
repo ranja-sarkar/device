@@ -18,7 +18,7 @@ Finally, two model hyperparameters namely, solver and decision threshold have be
 # Alternative
 An ensemble model like Random Forest or a non-parametric model like kNN could also have been attempted for the classification prediction. As an example of Random Forest classifier, if you're interested check this out that I had tried with a different dataset sometime back:
 
-https://colab.research.google.com/drive/1PewlbvMAQ8S9YXMz471Rw03vcbs9w5Qd
+https://github.com/ranja-sarkar/DecisionTree/blob/main/Random_Forest.ipynb
 
 # Conclusion
 A more complex neural network (deep learning algorithm) might as well be tried out for the present problem. However, it is always good to start with a simple baseline. Simple algorithms like logistic regression are tested wnd working just fine since ages for various classification problems and are more interpretable and easy to handle in production.
