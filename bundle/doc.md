@@ -9,17 +9,17 @@ Development of a supervised machine learning model to predict the likelihood of 
 The data provided is 6.4 MB, clean one with no missing data. The dataset has 12 variables, one of which datetime. The target variable is 'malfunction' and is binary.
 
 # Solution Approach
-A logistic regression model is being built to predict if one of the devices or products would fail or not the next day. Few features have been created and added for better understanding of the data as well as the results obtaiined from the model. And one of the 9 numerical features in the dataset have been eliminated due to redundancy.
+A logistic regression model is being built to predict if one of the devices/products would fail or not the next day. Few features have been created and added to the dataset for better understanding of the results obtained from the model. And one of the 9 numerical features in the dataset have been eliminated due to redundancy.
 
 Finally, two model hyperparameters namely, solver and decision threshold have been tuned for a comparison of the false positives and false negatives in each case.
 
 ---
 
 # Alternative
-An ensemble model like Random Forest or a non-parametric model like kNN could also have been attempted for the classification prediction. As an example of Random Forest classifier, if you're interested check this out that I had tried with a different dataset sometime back:
+An ensemble model like Random Forest (non-parametric model, kNN, etc.) could also have been attempted for the classification prediction. As an example Random Forest classifier, if you're interested check this out that I had tried with a different dataset sometime back:
 
 https://github.com/ranja-sarkar/DecisionTree/blob/main/Random_Forest.ipynb
 
 # Conclusion
-A more complex neural network (deep learning algorithm) might as well be tried out for the present problem. However, it is always good to start with a simple baseline. Simple algorithms like logistic regression are tested wnd working just fine since ages for various classification problems and are more interpretable and easy to handle in production.
+A complex neural network (deep learning algorithm) could as well be tried out for the present problem. However, it is always good to start with a simple baseline. Simpler algorithms like logistic regression are tested wnd working just fine since ages for various classification problems and are more interpretable and easy to handle in production.
 
