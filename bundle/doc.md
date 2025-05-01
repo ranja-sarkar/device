@@ -1,7 +1,9 @@
 # Introduction
+
 Predictive maintenance techniques are utilized to assess the condition of operational equipments, allowing for maintenance to be scheduled as needed. This method offers potential cost savings compared to preventive maintenance.
 
 # Problem statement
+
 Development of a supervised machine learning model to predict the likelihood of device malfunction from aggregated IoT data of daily frequency, and minimization of both false positives (FPs) and false negatives (FNs) in the predictions. 
 
 
@@ -9,17 +11,13 @@ Development of a supervised machine learning model to predict the likelihood of 
 The data provided is 6.4 MB, clean one with no missing data. The dataset has 12 variables, one of which datetime. The target variable is 'malfunction' and is binary.
 
 # Solution Approach
+
 A logistic regression model is being built to predict if one of the devices/products would fail or not the next day. Few features have been created and added to the dataset for better understanding of the results obtained from the model. And one of the 9 numerical features in the dataset have been eliminated due to redundancy.
 
 Finally, two model hyperparameters namely, solver and decision threshold have been tuned for a comparison of the false positives and false negatives in each case.
 
----
-
-# Alternative
-An ensemble model like Random Forest (non-parametric model, kNN, etc.) could also have been attempted for the classification prediction. As an example Random Forest classifier, if you're interested check this out that I had tried with a different dataset sometime back:
-
-https://github.com/ranja-sarkar/DecisionTree/blob/main/Random_Forest.ipynb
 
 # Conclusion
-A complex neural network (deep learning algorithm) could as well be tried out for the present problem. However, it is always good to start with a simple baseline. Simpler algorithms like logistic regression are tested wnd working just fine since ages for various classification problems and are more interpretable and easy to handle in production.
+
+it is always good to start with a simple baseline. Simpler (compared to complex neural network/deep learning) algorithms like logistic regression are tested wnd working just fine since ages for various classification problems and are more interpretable and easy to handle in production.  
 
