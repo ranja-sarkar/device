@@ -4,7 +4,7 @@ Predictive maintenance techniques are utilized to assess the condition of operat
 
 # Problem statement
 
-Development of a supervised machine learning model to predict the likelihood of device malfunction from aggregated IoT data of daily frequency, and minimization of both false positives (FPs) and false negatives (FNs) in the predictions. 
+Development of a supervised machine learning model to predict the likelihood of device malfunction from aggregated IoT data of daily frequency. 
 
 
 # Data
