@@ -12,8 +12,6 @@ The data provided is 6.4 MB, clean one with no missing data. The dataset has 12 
 
 # Solution Approach
 
-A logistic regression model is being built to predict if one of the devices/products would fail or not the next day. Few features have been created and added to the dataset for better understanding of the results obtained from the model. And one of the 9 numerical features in the dataset have been eliminated due to redundancy.
-
-Finally, two model hyperparameters namely, solver and decision threshold have been tuned for a comparison of the FPs and FNs in each case.
+A logistic regression model is being built to predict if one (or more) of the devices/products would fail or not the next day. Two hyperparameters namely, solver and decision threshold have been tuned for a comparison of the FPs and FNs in each case.
 
 
